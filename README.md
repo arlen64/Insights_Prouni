@@ -41,8 +41,8 @@ Neste desafio, feito em conjunto com o @ Saulo , criamos este projeto com a fina
 Para utilizar este projeto, siga os passos abaixo:
 
 
-    - baixar o dataset que disponibilizei no link "(https://dadosabertos.mec.gov.br/images/conteudo/prouni/2020/ProuniRelatorioDadosAbertos2020.csv)" e em seguida criar três banco de dados de forma manual no postgres. sendo eles: <br/>
-    - raw_data, silver_data, gold_data. por fim, passe as referencias do seu banco de dados e o caminho do arquivo csv que foi baixado para o script python.
+baixar o dataset que disponibilizei no link: https://dadosabertos.mec.gov.br/images/conteudo/prouni/2020/ProuniRelatorioDadosAbertos2020.csv e em seguida criar três banco de dados de forma manual no postgres. sendo eles: <br/>
+raw_data, silver_data, gold_data. por fim, passe as referencias do seu banco de dados e o caminho do arquivo csv que foi baixado para o script python.
 
 ## 🛠 Tecnologias
 
