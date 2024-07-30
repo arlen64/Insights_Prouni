@@ -1,8 +1,7 @@
 # Insights_Prouni
 
-Este é um projeto simples de web scraping desenvolvido em Python para extrair as últimas notícias do site G1 (globo.com)<br />
-Nesse projeto é realizado uma extração de até 8 notícias do site sendo elas as notícias atualizadas dando ao usuário a oportunidade de escolher quantas notícias quer exibir.<br />
-Obs: O usuário não consiguirá exibir mais de 8 notícias <br />
+Este é projeto aprensenta um estudo tendo como base dados do Prouni que visa <br />
+Extrair informções de uma base de dados do 'Prouni' que se retrata do detalhamento quantitaivo de bolsas concedidas pelo Prouni por ano
 
 
 
@@ -15,41 +14,49 @@ Obs: O usuário não consiguirá exibir mais de 8 notícias <br />
 
 ## 🧐 Objetivo
 
-Extrair informções de uma base de dados do 'Prouni' que se retrata do detalhamento quantitaivo de bolsas concedidas pelo Prouni por ano . <br/>
-Esse código pode ser usado como base para projetos mais avançados ou para entender os conceitos básicos de processos de ETL.
+Fazer um processo de etl tendo como base de dados do 'Prouni' que se retrata do detalhamento quantitaivo de bolsas concedidas pelo Prouni . <br/>
 
+## ✨ Requisitos do desafio
+
+Esse código pode ser usado como base para projetos mais avançados ou para entender os conceitos básicos e intermediários de processos de ETL. <br/>
+
+Neste desafio, feito em conjunto com o @ Saulo , criamos este projeto com a finalidade de realizar processos de "coleta", 'limpeza", "análise" e "visualização" de dados da **Administração Pública brasileira** tendo como requisitos:
+
+-   Este processo poderá estático, isto é, a coleta pode ser feita em apenas uma etapa sem a necessidade de processamento dinâmico de informações;
+-   A coleta normalmente será realizada processando-se um arquivo do tipo `CSV` por meio do uso do `Pandas`;
+-   Deve-se realizar um tratamento para remover os dados não relevantes para o fim da aplicação ("limpeza").
+
+-   Uso de banco de dados relacional:
+    -   Uso do Postgres;
+    -   Mínimo de 5 tabelas;
+    -   As tabelas principais devem ter no mínimo 10 mil registros cada;
+    -   Não há a necessidade de uso de Spark, bastando o uso de Pandas;
+    -   Utilizar comandos SQL para o cruzamento das informações.
+-   Implementar e detalhar um processamento segmentado em no mínimo 3 zonas:
+    -   _raw_ (dado cru);
+    -   _curated_ (dado limpo); e
+    -   _analytics_ (dado analisado).
 ## Como Usar
 
 Para utilizar este projeto, siga os passos abaixo:
+baixar o dataset que disponibilizei na pasta "data_raw" e em seguida criar três banco de dados de forma manual no postgres. sendo eles: <br/>
+raw_data, silver_data, gold_data. por fim, passe as referencias do seu banco de dados e o caminho do arquivo csv que foi baixado.
 
-### Instalação das Dependências:
+## 🛠 Tecnologias
 
-Certifique-se de ter o Python instalado em seu ambiente. Este projeto foi desenvolvido usando Python 3.x.
+#### **Dependências**
 
-Utilize o comando abaixo para instalar as dependências necessárias:
-
-```bash
-pip3 install -r requirements.txt
-```
-
-### Execução do Scraping:
-
-Após a instalação das dependências, você pode executar o arquivo `WebScrapingG1.py` para iniciar o scraping das notícias.
-
-```bash
-python3 WebScrapingG1.py
-```
+-   **[Python](https://docs.python.org/pt-br/3/tutorial/index.html)**
+-   **[Poetry - Python dependency management and packaging made easy](https://python-poetry.org/)**
+-   **[Pandas documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)**
+-   **[PostgreSQL: The world's most advanced open source database](https://www.postgresql.org/)**
+-   **[Plotly Python Graphing Library](https://plotly.com/python/)**
+-   **[Dash for Python | Plotly](https://dash.plotly.com/tutorial)**
+-   **[jupyter for VsCode | Plotly](https://www.walissonsilva.com/posts/jupyter-notebook-no-visual-studio-code)**
 
 ### Resultado:
 
-O código irá coletar as últimas notícias do G1, exibindo os títulos, subtítulos (se conter subtítulo) e links das notícias obtidas no console. <br />
-Obtendo até 8 notícias do site.
+Carregamento dos dados brutos no banco de dados raw_data do postgres, carregar os dados tratados no banco silver_data e os gráficos escolhidos no banco gold_data <br/>
+os dados serão consutados do banco silver_data para sim gerar as tabelas e os gráficos com as bibliotecas dash e plotly. Diante disso, serão gerados 6 gráficos com suas regras de negócios de exemplo <br/>
+e ao fim do código a construção de um dashboard com todos os gráficos em uma página local.
 
-## Estrutura de Pasta
-
-A estrutura de pastas do projeto está organizada da seguinte maneira:
-
-```bash
--   `README.md`: Documentação explicando o projeto, instruções de uso e informações gerais.
--   `WebScrapingG1.py`: Script que contém o código fonte do projeto.
--   `requirements.txt`: Lista todas as dependências do projeto para facilitar a instalação.
