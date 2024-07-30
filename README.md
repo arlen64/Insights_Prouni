@@ -1,7 +1,7 @@
 # Insights_Prouni
 
 Este é projeto aprensenta um estudo tendo como base dados do Prouni que visa <br />
-Extrair informções de uma base de dados do 'Prouni' que se retrata do detalhamento quantitaivo de bolsas concedidas pelo Prouni por ano
+Extrair informações de uma base de dados do 'Prouni' que se retrata do detalhamento quantitativo de bolsas concedidas pelo Prouni por ano
 
 
 
@@ -33,14 +33,16 @@ Neste desafio, feito em conjunto com o @ Saulo , criamos este projeto com a fina
     -   Não há a necessidade de uso de Spark, bastando o uso de Pandas;
     -   Utilizar comandos SQL para o cruzamento das informações.
 -   Implementar e detalhar um processamento segmentado em no mínimo 3 zonas:
-    -   _raw_ (dado cru);
-    -   _curated_ (dado limpo); e
-    -   _analytics_ (dado analisado).
+    -   raw (dado cru);
+    -   curated (dado limpo); e
+    -   analytics (dado analisado).
 ## Como Usar
 
 Para utilizar este projeto, siga os passos abaixo:
-baixar o dataset que disponibilizei na pasta "data_raw" e em seguida criar três banco de dados de forma manual no postgres. sendo eles: <br/>
-raw_data, silver_data, gold_data. por fim, passe as referencias do seu banco de dados e o caminho do arquivo csv que foi baixado.
+
+
+    - baixar o dataset que disponibilizei na pasta "data_raw" e em seguida criar três banco de dados de forma manual no postgres. sendo eles: <br/>
+    - raw_data, silver_data, gold_data. por fim, passe as referencias do seu banco de dados e o caminho do arquivo csv que foi baixado para o script python.
 
 ## 🛠 Tecnologias
 
@@ -57,6 +59,6 @@ raw_data, silver_data, gold_data. por fim, passe as referencias do seu banco de 
 ### Resultado:
 
 Carregamento dos dados brutos no banco de dados raw_data do postgres, carregar os dados tratados no banco silver_data e os gráficos escolhidos no banco gold_data <br/>
-os dados serão consutados do banco silver_data para sim gerar as tabelas e os gráficos com as bibliotecas dash e plotly. Diante disso, serão gerados 6 gráficos com suas regras de negócios de exemplo <br/>
+os dados serão consultados do banco silver_data para sim gerar as tabelas e os gráficos com as bibliotecas dash e plotly. Diante disso, serão gerados 6 gráficos com suas regras de negócios de exemplo <br/>
 e ao fim do código a construção de um dashboard com todos os gráficos em uma página local.
 
