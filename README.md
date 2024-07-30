@@ -1,7 +1,7 @@
 # Insights_Prouni
 
-Este é projeto aprensenta um estudo tendo como base dados do Prouni que visa <br />
-Extrair informações de uma base de dados do 'Prouni' que se retrata do detalhamento quantitativo de bolsas concedidas pelo Prouni por ano
+Este é projeto aprensenta um estudo tendo como base dados do Prouni que visa Extrair informações<br />
+de uma base de dados do 'Prouni' que se retrata do detalhamento quantitativo de bolsas concedidas pelo Prouni por ano
 
 
 
@@ -14,7 +14,7 @@ Extrair informações de uma base de dados do 'Prouni' que se retrata do detalha
 
 ## 🧐 Objetivo
 
-Fazer um processo de etl tendo como base de dados do 'Prouni' que se retrata do detalhamento quantitaivo de bolsas concedidas pelo Prouni . <br/>
+Fazer um processo de etl tendo como base de dados do 'Prouni' que se retrata do detalhamento quantitaivo de bolsas concedidas pelo Prouni. <br/>
 
 ## ✨ Requisitos do desafio
 
