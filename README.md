@@ -28,10 +28,8 @@ Neste desafio, feito em conjunto com o [@ Saulo](https://github.com/havilasaulo)
 
 -   Uso de banco de dados relacional:
     -   Uso do Postgres;
-    -   Mínimo de 5 tabelas;
-    -   As tabelas principais devem ter no mínimo 10 mil registros cada;
     -   Não há a necessidade de uso de Spark, bastando o uso de Pandas;
-    -   Utilizar comandos SQL para o cruzamento das informações.
+    -   Utilizar comandos SQL ou Python para o cruzamento das informações.
 -   Implementar e detalhar um processamento segmentado em no mínimo 3 zonas:
     -   raw (dado cru);
     -   curated (dado limpo); e
