@@ -20,7 +20,7 @@ Fazer um processo de etl tendo como base de dados do 'Prouni' que se retrata do 
 
 Esse código pode ser usado como base para projetos mais avançados ou para entender os conceitos básicos e intermediários de processos de ETL. <br/>
 
-Neste desafio, feito em conjunto com o @ Saulo , criamos este projeto com a finalidade de realizar processos de "coleta", 'limpeza", "análise" e "visualização" de dados da **Administração Pública brasileira** tendo como requisitos:
+Neste desafio, feito em conjunto com o [@ Saulo](https://github.com/havilasaulo) , criamos este projeto com a finalidade de realizar processos de "coleta", 'limpeza", "análise" e "visualização" de dados da **Administração Pública brasileira** tendo como requisitos:
 
 -   Este processo poderá estático, isto é, a coleta pode ser feita em apenas uma etapa sem a necessidade de processamento dinâmico de informações;
 -   A coleta normalmente será realizada processando-se um arquivo do tipo `CSV` por meio do uso do `Pandas`;
