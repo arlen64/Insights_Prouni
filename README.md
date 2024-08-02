@@ -1,9 +1,9 @@
 # Insights_Prouni
 
+![Descrição da Imagem](https://github.com/arlen64/Insights_Prouni/blob/676cb3ded09b08c975b3b7d430ca70a4b4be150f/ImageProject_Prouni.jpeg)
+
 Este é projeto aprensenta um estudo tendo como base dados do Prouni que visa Extrair informações<br />
 de uma base de dados do 'Prouni' que se retrata do detalhamento quantitativo de bolsas concedidas pelo Prouni por ano
-
-
 
 ## Bibliotecas necessárias:
 
@@ -34,10 +34,10 @@ Neste desafio, feito em conjunto com o [@ Saulo](https://github.com/havilasaulo)
     -   raw (dado cru);
     -   curated (dado limpo); e
     -   analytics (dado analisado).
+
 ## Como Usar
 
 Para utilizar este projeto, siga os passos abaixo:
-
 
 baixar o dataset que disponibilizei no link:<br/> https://dadosabertos.mec.gov.br/images/conteudo/prouni/2020/ProuniRelatorioDadosAbertos2020.csv<br/> e em seguida crie três banco de dados de forma manual no postgres. sendo eles: <br/>
 raw_data, silver_data, gold_data. Por fim, passe as referências do seu banco de dados e o caminho do arquivo csv que foi baixado para o script python.
@@ -59,4 +59,3 @@ raw_data, silver_data, gold_data. Por fim, passe as referências do seu banco de
 Carregamento dos dados brutos no banco de dados raw_data do postgres, carregar os dados tratados no banco silver_data e os gráficos escolhidos no banco gold_data <br/>
 os dados serão consultados do banco silver_data para sim gerar as tabelas e os gráficos com as bibliotecas dash e plotly. Diante disso, serão gerados 6 gráficos com suas regras de negócios de exemplo <br/>
 e ao fim do código a construção de um dashboard com todos os gráficos em uma página local.
-
